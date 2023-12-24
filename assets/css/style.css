@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
+
+*{
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+}
+
+body{
+  background-color: #000;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('../images/banner.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  border-bottom: 1px solid #33A8DB;
+
+}
+
+.banner-content{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.banner-content h1{
+  color: #33A8DB;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.banner-content p {
+  font-size: 20px;
+}
+
+.banner-content button{
+  -webkit-background-clip: text;
+  font-size: 19px;
+  border: 1px solid #33A8DB;
+  padding: 20px 60px;
+  color: #33A8DB;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/**/
+
+h2{
+  color: #33A8DB;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+
+#course-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 600px;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+#couse-content p{
+  font-size: 16px;
+}
+
+#course-content .modules-list{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+#course-content .modules-list .module{
+  border: 1px solid #33A8DB;
+  background-color: #252525;
+  padding: 15px 40px;
+  border-radius: 20px;
+}
+
+.modules-list span{
+  color: #33A8DB;
+}
+
+/**/
+
+#transform-world{
+  border-top: 1px solid #33A8DB;
+  border-bottom: 1px solid #33A8DB;
+  background-image: url(../images/woman-code.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: contain;
+  width: 100%;
+  height: 500px;
+  background-attachment: fixed;
+}
+
+
+#transform-world{
+  display: flex;
+  align-items: center;
+  text-align: left;
+  padding-left: 50px;
+}
+#transform-world p{
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: #33A8DB 3px 2px;
+  text-transform:lowercase;
+  max-width: 250px;
+
+}
+
+/**/
+
+#professional-challenges{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  height: 800px;
+  border-bottom: 1px solid #33A8DB;
+}
+
+#professional-challenges p{
+  padding: 0px 40px;
+}
+
+/**/
+
+footer{
+  background-image: linear-gradient(rgba(0, 0, 0, .6),rgba(49, 168, 221, .2));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 200px;
+  gap: 5px;
+}
+
+
+footer a{
+  text-decoration: none;
+  color: #33A8DB;
+}
